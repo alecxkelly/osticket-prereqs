@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enabled IIS
 - Installed web platform installer
 - Installed MySQL +Setup UN/PW
-- Configured OsTicket System + 
+- Configured OsTicket System
 
 <h2>Installation Steps</h2>
 
@@ -50,7 +50,7 @@ I downloaded the osTicket-Installation-Files.zip file and unzipped it onto my de
 <img /> 
 </p>
 <p>
-Right-Click folder -> extract all -> Now, Install / Enable IIS in Windows WITH CGI -> Click start menu  -> type Control Panel -> Open -> programs-uninstall a program -> click Turn Window features on or off -> tick, Internet information Services -> expand world wide web services -> application development features -> tick CG1 
+I Right-Clicked folder -> extract all -> Now, Install / Enable IIS in Windows WITH CGI -> Click start menu -> type Control Panel -> Open -> programs-uninstall a program -> click Turn Window features on or off -> tick, Internet information Services -> expand world wide web services -> application development features -> ticked CG1 
 </p>
 <br />
 
@@ -81,7 +81,7 @@ From the “osTicket-Installation-Files” folder install the Rewrite Module, ti
 <img /> 
 </p>
 <p>
-Now, From the “osTicket-Installation-Files” folder, I unzipped the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder, Right Click PHP folder within the Os Ticket files folder, click Browse -> click C folder in menu, click PHP folder, select, extract
+Now, From the “osTicket-Installation-Files” folder, I unzipped the PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder, Right Clicked PHP folder within the Os Ticket files folder, click Browse -> clicked C folder in menu, clicked PHP folder, select, extract
 </p>
 <br />
 
@@ -90,7 +90,7 @@ Now, From the “osTicket-Installation-Files” folder, I unzipped the PHP 7.3.8
 <img /> 
 </p>
 <p>
-Now From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe. Double Click the file, I agree, Install
+Now From the “osTicket-Installation-Files” folder, I installed VC_redist.x86.exe. Double Clicked the file, I agree, clicked Install
 </p>
 <br />
 
@@ -109,7 +109,7 @@ Now, From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (my
 <img />
 </p>
 <p>
-Now,Open IIS as an Admin, go to start menu, type iis, Right Click-Run as administrator 
+Now, Open IIS as an Admin, go to start menu, type iis, Right Click-Run as administrator 
 </p>
 <br />
 
@@ -120,7 +120,7 @@ Now,Open IIS as an Admin, go to start menu, type iis, Right Click-Run as adminis
 <img />
 </p>
 <p>
-Now,Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe), click PHP manager-click Register new PHP version, click the 3 dots, click Windows C drive in folder, double click php-cgi, press ok -> Reload IIS (Open IIS, Stop and Start the server), click OS ticket in IIS, click restart in the actions menu, press stop, then press start 
+Now, Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe), click PHP manager-click Register new PHP version, click the 3 dots, click Windows C drive in folder, double click php-cgi, pressed ok -> Reload IIS (Open IIS, Stop and Start the server), click OS ticket in IIS, click restart in the actions menu, press stop, then press start 
 </p>
 <br />
 
@@ -129,7 +129,7 @@ Now,Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe), click PHP 
 <img />
 </p>
 <p>
-Now, Install osTicket v1.15.8 -> From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and I copied the “upload” folder into “c:\inetpub\wwwroot”,by going into the folder, Right-click the zip, extract all -> click extract
+Now, I Install osTicket v1.15.8 -> From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and I copied the “upload” folder into “c:\inetpub\wwwroot”, by going into the folder, Right-click the zip, extract all -> click extract
 </p>
 <br />
 
@@ -140,7 +140,7 @@ Now, Install osTicket v1.15.8 -> From the “osTicket-Installation-Files” fold
 <img />
 </p>
 <p>
-Now, to copy the uploaded folder “c:\inetpub\wwwroot”,and Rename “upload” to “osTicket”, click folder at menu bar, Right-Click, click file explorer, click Windows C drive folder click "inetpub", click "wwwroot", from OS ticket files folder, drag the upload file into the wwroot fodler, Right-click the uploaded folder, rename it
+Now, to copy the uploaded folder “c:\inetpub\wwwroot”, and Renameed “upload” to “osTicket”, click folder at menu bar, Right-Click, click file explorer, click Windows C drive folder click "inetpub", click "wwwroot", from OS ticket files folder, drag the upload file into the wwwroot folder, Right-click the uploaded folder, rename it
 </p>
 <br />
 
